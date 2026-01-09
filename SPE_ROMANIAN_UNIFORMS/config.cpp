@@ -96,6 +96,7 @@ class cfgweapons
 {
 	class Uniform_Base;
 	class UniformItem;
+	class ItemCore;
 	class Vest_Camo_Base: ItemCore
 	{
 		class ItemInfo;
