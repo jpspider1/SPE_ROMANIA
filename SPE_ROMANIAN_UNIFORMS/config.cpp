@@ -107,7 +107,7 @@ class cfgweapons
 	{
 		author = "Jpspider";
 		scope = 2;
-		displayName = "RO Romanian 1941 Uniform";
+		displayName = "RO Romanian M1941 Uniform";
 		descriptionShort = "";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
 		picture = "\WW2\SPE_Assets_t\Characters\Pictures_t\Clothing\Uniforms\U_SPE_OST_base_ca.paa";
@@ -126,27 +126,27 @@ class cfgweapons
 	class H_NORTH_SOV_SSh40_Helmet_5;
 	class JPSP_H_RO_1939_HELMET_1: H_NORTH_SOV_SSh40_Helmet
 	{
-		displayName = "RO 1939 Helmet (Icon) #1";
+		displayName = "RO M1939 Helmet (Icon) #1";
 		hiddenSelectionsTextures[] = {"SPE_ROMANIAN_UNIFORMS\data\Romanian_M39_Icon.paa"};
 	};
 	class JPSP_H_RO_1939_HELMET_2: H_NORTH_SOV_SSh40_Helmet_2
 	{
-		displayName = "RO 1939 Helmet (Icon) #2";
+		displayName = "RO M1939 Helmet (Icon) #2";
 		hiddenSelectionsTextures[] = {"SPE_ROMANIAN_UNIFORMS\data\Romanian_M39_Icon.paa"};
 	};
 	class JPSP_H_RO_1939_HELMET_3: H_NORTH_SOV_SSh40_Helmet_3
 	{
-		displayName = "RO 1939 Helmet (Icon) #3";
+		displayName = "RO M1939 Helmet (Icon) #3";
 		hiddenSelectionsTextures[] = {"SPE_ROMANIAN_UNIFORMS\data\Romanian_M39_Icon.paa"};
 	};
 	class JPSP_H_RO_1939_HELMET_4: H_NORTH_SOV_SSh40_Helmet_4
 	{
-		displayName = "RO 1939 Helmet (Icon) #4";
+		displayName = "RO M1939 Helmet (Icon) #4";
 		hiddenSelectionsTextures[] = {"SPE_ROMANIAN_UNIFORMS\data\Romanian_M39_Icon.paa"};
 	};
 	class JPSP_H_RO_1939_HELMET_5: H_NORTH_SOV_SSh40_Helmet_5
 	{
-		displayName = "RO 1939 Helmet (Icon) #5";
+		displayName = "RO M1939 Helmet (Icon) #5";
 		hiddenSelectionsTextures[] = {"SPE_ROMANIAN_UNIFORMS\data\Romanian_M39_Icon.paa"};
 	};
 
