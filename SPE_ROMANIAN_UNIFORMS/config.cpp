@@ -8,7 +8,7 @@ class CfgPatches
 		units[] = {""};
 		weapons[] = {};
 		requiredVersion = 0.1;
-		requiredAddons[] = {"A3_Characters_F"};
+		requiredAddons[] = {"A3_Characters_F","H_NORTH_SOV_helmets"};
 	};
 };
 class CfgFactionClasses
@@ -103,37 +103,69 @@ class cfgweapons
 	};
 
 
-	class JPSP_B_RO_U_UNIFORM: Uniform_Base
+	class JPSP_B_RO_U_1941_UNIFORM: Uniform_Base
 	{
 		author = "Jpspider";
 		scope = 2;
-		displayName = "RO Romanian Uniform";
+		displayName = "RO Romanian 1941 Uniform";
 		descriptionShort = "";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
 		picture = "\WW2\SPE_Assets_t\Characters\Pictures_t\Clothing\Uniforms\U_SPE_OST_base_ca.paa";
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "-";
-			uniformClass = "JPSP_B_RO_VEHICLE";
+			uniformClass = "JPSP_B_RO_1941_VEHICLE";
 			containerClass = "Supply50";
 			mass = 20;
 		};
 	};
+	class H_NORTH_SOV_SSh40_Helmet;
+	class H_NORTH_SOV_SSh40_Helmet_2;
+	class H_NORTH_SOV_SSh40_Helmet_3;
+	class H_NORTH_SOV_SSh40_Helmet_4;
+	class H_NORTH_SOV_SSh40_Helmet_5;
+	class JPSP_H_RO_1939_HELMET_1: H_NORTH_SOV_SSh40_Helmet
+	{
+		displayName = "RO 1939 Helmet (Icon) #1";
+		hiddenSelectionsTextures[] = {"SPE_ROMANIAN_UNIFORMS\data\Romanian_M39_Icon.paa"};
+	};
+	class JPSP_H_RO_1939_HELMET_2: H_NORTH_SOV_SSh40_Helmet_2
+	{
+		displayName = "RO 1939 Helmet (Icon) #2";
+		hiddenSelectionsTextures[] = {"SPE_ROMANIAN_UNIFORMS\data\Romanian_M39_Icon.paa"};
+	};
+	class JPSP_H_RO_1939_HELMET_3: H_NORTH_SOV_SSh40_Helmet_3
+	{
+		displayName = "RO 1939 Helmet (Icon) #3";
+		hiddenSelectionsTextures[] = {"SPE_ROMANIAN_UNIFORMS\data\Romanian_M39_Icon.paa"};
+	};
+	class JPSP_H_RO_1939_HELMET_4: H_NORTH_SOV_SSh40_Helmet_4
+	{
+		displayName = "RO 1939 Helmet (Icon) #4";
+		hiddenSelectionsTextures[] = {"SPE_ROMANIAN_UNIFORMS\data\Romanian_M39_Icon.paa"};
+	};
+	class JPSP_H_RO_1939_HELMET_5: H_NORTH_SOV_SSh40_Helmet_5
+	{
+		displayName = "RO 1939 Helmet (Icon) #5";
+		hiddenSelectionsTextures[] = {"SPE_ROMANIAN_UNIFORMS\data\Romanian_M39_Icon.paa"};
+	};
+
+
 };
 class UniformSlotInfo;
 class CfgVehicles
 {
 	class SPE_OST_soldier_base;
-	class JPSP_B_RO_VEHICLE: SPE_OST_soldier_base
+	class JPSP_B_RO_1941_VEHICLE: SPE_OST_soldier_base
 	{
 		author = "Jpspider";
 		scope = 1;
 		scopeArsenal = 2;
 		scopeCurator = 2;
-		displayName = "RO Romanian Uniform";
+		displayName = "RO Romanian 1941 Uniform";
 		side = 2;
 		nakedUniform = "U_BasicBody";
-		uniformClass = "JPSP_B_RO_U_UNIFORM";
+		uniformClass = "JPSP_B_RO_U_1941_UNIFORM";
 		hiddenSelections[] = {"camo","camoB","badge"};
 		hiddenSelectionsTextures[] = {"\SPE_ROMANIAN_UNIFORMS\data\Romanian_uniform_SPE_OST.paa","","",""};
 	};
